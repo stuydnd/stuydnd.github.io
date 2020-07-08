@@ -1,0 +1,69 @@
+.sidebar {
+  position: fixed;
+  background: #8c8c8c;
+  padding: 15px;
+  font-size: 12px;
+  border: 0.5px solid black;
+}
+
+.sb-list {
+  list-style-type: none;
+  font-size: inherit;
+  background-color: inherit;
+}
+
+.sb-list a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.sb-list a li {
+  padding: 2px;
+  cursor: inherit;
+  background-color: inherit;
+}
+
+.sb-list a li:hover {
+  background-color: #a6a6a6;
+}
+
+.cathead {
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: inherit;
+}
+
+a#abt {
+  text-decoration: none;
+  background-color: inherit;
+}
+
+h3#abt {
+  color: black;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+h3#abt:hover {
+  background-color: #a6a6a6;
+}
+
+.logos {
+  height: 120px;
+  background-color: rgba(0,0,0,0);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.logos:hover {
+  background-color: rgba(0,0,0,0.25);
+  transition: 0.5s;
+}
+
+.selected {
+  background-color: white;
+  border: 0.1px solid black;
+  padding: 1px;
+}
