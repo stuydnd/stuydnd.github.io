@@ -4,7 +4,7 @@
   cursor: default;
   font-family: 'Poppins', sans-serif;
   /* font-family: 'MuseoModerno', cursive; */
-  background-color: black;
+  background-color: #1f1f1f;
 }
 
 .content {
@@ -29,5 +29,5 @@ hr.b2 {
 }
 
 hr.b3 {
-  border: 1px dashed black;
+  border: 1px solid black;
 }
