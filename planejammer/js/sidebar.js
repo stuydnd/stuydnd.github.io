@@ -6,7 +6,7 @@ $(document).ready(function() {
       $('.sidebar').css('width','100px');
       $('.minmaxer').html('+');
       $('.sidebar-contents').css('display','none');
-      $('.content').css('width','80%');
+      $('.content').css('width','85%');
       $('.content').css('left','10%');
       minimized = true;
     } else {
