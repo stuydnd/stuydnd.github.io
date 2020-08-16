@@ -4,6 +4,13 @@
   padding: 15px;
   font-size: 12px;
   border: 0.5px solid black;
+  width: 100px;
+  z-index: 2;
+}
+
+.sidebar-contents {
+  background-color: inherit;
+  display: none;
 }
 
 .sb-list {
@@ -69,4 +76,12 @@ h3#abt:hover {
   padding: 2px;
   position: relative;
   right: 15px;
+}
+
+
+.minmaxer {
+  background-color: inherit;
+  font-size: 200%;
+  cursor: pointer;
+  border: none;
 }
