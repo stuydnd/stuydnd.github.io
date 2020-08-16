@@ -63,12 +63,10 @@ h3#abt:hover {
   height: 120px;
   background-color: rgba(0,0,0,0);
   cursor: pointer;
-  transition: 0.5s;
 }
 
 .logos:hover {
   background-color: #a6a6a6;
-  transition: 0.5s;
 }
 
 .selected {
@@ -84,4 +82,8 @@ h3#abt:hover {
   font-size: 200%;
   cursor: pointer;
   border: none;
+}
+
+.minmaxer:hover {
+  background-color: #a6a6a6;
 }
