@@ -16,8 +16,15 @@
   background-color: white;
 }
 
-.content h1, .content h2, .content h3, .content p {
+.content h1, .content h2, .content h3, .content p, .content span {
   background-color: inherit;
+}
+
+.content a {
+  background-color: inherit;
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 hr.b1 {
