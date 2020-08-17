@@ -16,7 +16,7 @@
   background-color: white;
 }
 
-.content h1, .content h2, .content h3, .content p, .content span {
+.content h1, .content h2, .content h3, .content p, .content span, .content div ol {
   background-color: inherit;
 }
 
@@ -37,4 +37,19 @@ hr.b2 {
 
 hr.b3 {
   border: 1px solid black;
+}
+
+.table-of-contents {
+  background-color: inherit;
+  border: 1px solid black;
+  width: 40%;
+}
+
+.content div ol li {
+  background-color: inherit;
+  cursor: pointer;
+}
+
+ol li a:hover {
+  text-decoration: underline;
 }
