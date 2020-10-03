@@ -16,7 +16,7 @@
   background-color: white;
 }
 
-.content h1, .content h2, .content h3, .content p, .content span, .content div ol {
+.content h1, .content h2, .content h3, .content p, .content span, .content div ol, .content blockquote, .content blockquote b {
   background-color: inherit;
 }
 
