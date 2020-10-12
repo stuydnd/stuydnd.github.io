@@ -4,6 +4,10 @@
   cursor: default;
   font-family: 'Poppins', sans-serif;
   /* font-family: 'MuseoModerno', cursive; */
+  background-color: inherit;
+}
+
+html {
   background-color: #1f1f1f;
 }
 
@@ -48,6 +52,11 @@ hr.b3 {
 .content div ol li {
   background-color: inherit;
   cursor: pointer;
+}
+
+b {
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 ol li a:hover {
