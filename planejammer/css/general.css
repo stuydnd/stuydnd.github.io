@@ -62,3 +62,8 @@ b {
 ol li a:hover {
   text-decoration: underline;
 }
+
+.terminology li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
